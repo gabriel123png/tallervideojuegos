@@ -146,3 +146,13 @@ button{
     color: rgb(29, 11, 11);
     margin-top: 20px;
 }
+
+.ubicacion{
+    width: 50%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
