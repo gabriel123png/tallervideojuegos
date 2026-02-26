@@ -100,3 +100,40 @@ footer{
     height: 200px;
     object-fit: cover;
 }
+
+.info-contacto{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.formulario{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+input, textarea, select{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.redes{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
