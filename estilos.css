@@ -39,7 +39,7 @@ h1{
 }
 
 .contenedor-noticias{
-    display: flex;
+    
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
@@ -59,4 +59,22 @@ h1{
     height: 200px;
     object-fit: cover;
 }
+footer{
+    background-color: rgb(7, 17, 63);
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
 
+.footer-contenido a{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgb(237, 245, 218);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.footer-contenido a:hover{
+    background-color: blue;
+}
