@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(245, 245, 245);
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
    
@@ -64,7 +65,6 @@ footer{
     background-color: rgb(7, 17, 63);
     padding: 20px;
     text-align: center;
-    margin-top: 50px;
 }
 
 .footer-contenido a{
@@ -156,3 +156,16 @@ button{
     color: white;
     text-align: center;
 }
+section{
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+main{
+    flex: 1;
+    width: 80%;
+    margin: 40px auto;
+}
+
