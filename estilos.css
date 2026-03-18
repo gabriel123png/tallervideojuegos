@@ -27,7 +27,6 @@ h1{
 .grid-gamer img{
     width: 100%;
     height: 200px;
-    object-fit: cover;
 }
 
 
@@ -36,13 +35,13 @@ h1{
     grid-row: 2;
     text-align: center;
     color: white;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(82, 79, 79, 0.6);
     padding: 20px;
     border-radius: 10px;
 }
 
 .contenedor-noticias{
-    
+
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
@@ -50,7 +49,7 @@ h1{
 
 .noticia{
     width: 300px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(70, 68, 68, 0.6);
     padding: 15px;
     border-radius: 10px;
     text-align: center;
@@ -107,7 +106,7 @@ header{
 .juego{
     width: 250px;
     text-align: center;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(80, 78, 78, 0.6);
     padding: 10px;
     border-radius: 10px;
     color: white;
@@ -138,7 +137,7 @@ header{
 .formulario{
     width: 40%;
     margin: 5% auto;
-    background-color: rgba(7, 0, 0, 0.6);
+    background-color: rgba(81, 80, 80, 0.6);
     padding: 20px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
@@ -174,7 +173,7 @@ button{
 .ubicacion{
     width: 50%;
     margin: auto;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(74, 71, 71, 0.6);
     padding: 20px;
     border-radius: 10px;
     color: white;
