@@ -7,7 +7,7 @@ body{
 }
 
 h1{
-     font-family: "Honk", system-ui;
+  font-family: "Honk", system-ui;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -19,7 +19,31 @@ h1{
     0 0 20px rgb(255, 0, 0);
 
 }
+h2{
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    text-shadow: 1px 2px 2px rgb(0, 34, 255),
+    0 0 10px rgb(0, 30, 255),
+    0 0 30px rgb(174, 255, 0);
 
+}
+a:link{
+    color: rgb(21, 0, 255);
+}
+a:visited{
+    color: rgb(0, 169, 236);
+}
+a:hover{
+    color: rgb(43, 255, 0);
+}
+a:active{
+    color: rgb(255, 149, 0);
+}
 
 .grid-gamer{
     display: grid;
@@ -74,7 +98,11 @@ footer{
 }
 header{
     background-color:  rgba(70, 68, 68, 0.6);
+    background-image: url(https://r1.community.samsung.com/t5/image/serverpage/image-id/5913924iA6801E11932992A0/image-size/large?v=v2&px=999);
     color: aliceblue;
+    height: 400px;
+    opacity: 10;
+    background-size: 800px;
     padding: 25px;
     text-align: center;
 }
@@ -196,5 +224,32 @@ main{
     flex: 1;
     width: 80%;
     margin: 40px auto;
+}
+table{
+    background-color: rgb(130, 130, 130);
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid beige;
+    padding: 8px;
+}
+th{
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 173);
+}
+tr:hover{
+    background-color: rgb(38, 38, 221);
+    cursor: pointer;
+}
+tr:nth-child(even){
+    background-color: rgb(220, 243, 8);
+}
+tr:hover{
+    background-color: rgb(221, 221, 225);
+    cursor: pointer;
+}
+.historia{
+    text-align: center;
 }
 
